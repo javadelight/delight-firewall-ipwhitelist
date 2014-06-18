@@ -1,5 +1,5 @@
 package de.mxro.firewall.ipwhitelist;
 
-public class IPWhitelistFilter {
+public class IPWhitelistRule {
 
 }
