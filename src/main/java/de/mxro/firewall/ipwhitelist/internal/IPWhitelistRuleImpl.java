@@ -26,7 +26,6 @@ public class IPWhitelistRuleImpl implements Rule {
 				}
 				
 				callback.proceed();
-				
 			}
 			
 			@Override
