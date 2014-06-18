@@ -24,13 +24,13 @@
 	<!-- Dependent Modules -->
 	<dependencies>
 
-<dependency>
-<artifactId>abstract-http-firewall</artifactId>
-	<groupId>de.mxro.abstracthttpfirewall</groupId>
-	<version>[0.0.1,)</version>
+		<dependency>
+			<artifactId>abstract-http-firewall</artifactId>
+			<groupId>de.mxro.firewall</groupId>
+			<version>[0.0.2,)</version>
 		</dependency>
 
-		
+
 
 		<!-- only for gwt maven plugin!!! -->
 		<dependency>
