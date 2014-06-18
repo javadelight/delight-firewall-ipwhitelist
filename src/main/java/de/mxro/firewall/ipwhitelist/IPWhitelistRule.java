@@ -6,7 +6,7 @@ import de.mxro.firewall.ipwhitelist.internal.IPWhitelistRuleImpl;
 
 public class IPWhitelistRule {
 
-	public Rule createIPWhitelistRule(Response deniedResponse, IPWhitelist whitelistService) {
+	public static Rule createIPWhitelistRule(Response deniedResponse, IPWhitelist whitelistService) {
 		return new IPWhitelistRuleImpl(whitelistService, deniedResponse);	
 	}
 	
