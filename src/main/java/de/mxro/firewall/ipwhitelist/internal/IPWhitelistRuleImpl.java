@@ -12,7 +12,9 @@ public class IPWhitelistRuleImpl implements Rule {
 	private final Response deniedResponse;
 	
 	@Override
-	public void apply(Request request, Response response, CheckCallback callback) {
+	public void apply(final Request request, final Response response, final CheckCallback callback) {
+		
+		
 		
 	}
 
