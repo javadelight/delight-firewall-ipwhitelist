@@ -15,7 +15,7 @@
 			org.junit,
 			*
 		</module.importedPackages>
-		<module.exportedPackages>!de.mxro.abstracthttpfirewall.internal*,de.mxro.abstracthttpfirewall*
+		<module.exportedPackages>!de.mxro.firewall.ipwhitelist.internal*,de.mxro.firewall.ipwhitelist*
 		</module.exportedPackages>
 		<module.serviceDefinitions>
 		</module.serviceDefinitions>
