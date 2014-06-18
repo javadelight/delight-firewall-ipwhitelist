@@ -1,7 +1,7 @@
 package de.mxro.firewall.ipwhitelist;
 
-import de.mxro.abstracthttpfirewall.Rule;
 import de.mxro.abstracthttpserver.Response;
+import de.mxro.firewall.Rule;
 import de.mxro.firewall.ipwhitelist.internal.IPWhitelistRuleImpl;
 
 public class IPWhitelistRule {
