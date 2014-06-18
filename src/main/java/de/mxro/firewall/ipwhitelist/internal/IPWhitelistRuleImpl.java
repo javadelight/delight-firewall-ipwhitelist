@@ -15,7 +15,7 @@ public class IPWhitelistRuleImpl implements Rule {
 	@Override
 	public void apply(final Request request, final Response response, final CheckCallback callback) {
 		
-		whitelist.checkIP(request.getSourceAddress().getAddress(), new ValueCallback<Boolean>() {
+		whitelist.ipInWhitelist(request.getSourceAddress().getAddress(), new ValueCallback<Boolean>() {
 			
 			@Override
 			public void onSuccess(Boolean value) {
