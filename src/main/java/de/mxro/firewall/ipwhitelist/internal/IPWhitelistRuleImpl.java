@@ -1,11 +1,11 @@
 package de.mxro.firewall.ipwhitelist.internal;
 
 import io.nextweb.fn.callbacks.ValueCallback;
-import de.mxro.abstracthttpserver.Request;
-import de.mxro.abstracthttpserver.Response;
 import de.mxro.firewall.CheckCallback;
 import de.mxro.firewall.Rule;
 import de.mxro.firewall.ipwhitelist.IPWhitelist;
+import de.mxro.httpserver.Request;
+import de.mxro.httpserver.Response;
 
 public class IPWhitelistRuleImpl implements Rule {
 
