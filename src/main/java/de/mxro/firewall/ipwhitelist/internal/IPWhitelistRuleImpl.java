@@ -1,6 +1,6 @@
 package de.mxro.firewall.ipwhitelist.internal;
 
-import io.nextweb.fn.callbacks.ValueCallback;
+import de.mxro.async.callbacks.ValueCallback;
 import de.mxro.firewall.CheckCallback;
 import de.mxro.firewall.Rule;
 import de.mxro.firewall.ipwhitelist.IPWhitelist;
