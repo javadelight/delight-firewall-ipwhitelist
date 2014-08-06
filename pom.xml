@@ -25,7 +25,7 @@
 	<dependencies>
 
 		<dependency>
-			<artifactId>abstract-http-firewall</artifactId>
+			<artifactId>http-firewall</artifactId>
 			<groupId>de.mxro.firewall</groupId>
 			<version>[0.0.2,)</version>
 		</dependency>
