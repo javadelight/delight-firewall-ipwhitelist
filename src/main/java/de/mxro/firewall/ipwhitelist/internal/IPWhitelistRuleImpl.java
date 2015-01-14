@@ -50,7 +50,6 @@ public class IPWhitelistRuleImpl implements Rule {
     }
 
     private final void assertWhitelist(final ValueCallback<IPWhitelist> callback) {
-
         ctx.state().retrieve(whitelistProperty, IPWhitelist.class, callback);
     }
 
