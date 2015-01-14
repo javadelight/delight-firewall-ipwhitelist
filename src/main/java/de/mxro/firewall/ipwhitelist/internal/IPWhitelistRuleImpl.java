@@ -41,6 +41,10 @@ public class IPWhitelistRuleImpl implements Rule {
 
     }
 
+    private final void assertWhitelist(final ValueCallback<IPWhitelist> callback) {
+        ctx.state().retrieve(whitelistProperty, IPWhitelist.class, callback);
+    }
+
     public IPWhitelistRuleImpl(final String whitelistProperty, final ComponentContext ctx, final Response deniedResponse) {
         super();
         this.whitelist = null;
