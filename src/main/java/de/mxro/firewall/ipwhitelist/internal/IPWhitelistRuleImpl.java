@@ -1,12 +1,13 @@
 package de.mxro.firewall.ipwhitelist.internal;
 
+import delight.async.callbacks.ValueCallback;
+
 import de.mxro.firewall.CheckCallback;
 import de.mxro.firewall.Rule;
 import de.mxro.firewall.ipwhitelist.IPWhitelist;
 import de.mxro.httpserver.Request;
 import de.mxro.httpserver.Response;
 import de.mxro.server.ComponentContext;
-import delight.async.callbacks.ValueCallback;
 
 public class IPWhitelistRuleImpl implements Rule {
 
